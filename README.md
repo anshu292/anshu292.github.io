@@ -1,6 +1,6 @@
 # Ozyma Website
 
-Official marketing and community site for **Ozyma — A Spiritual Martial Art**.
+ **Ozyma — A Spiritual Martial Art**.
 
 Live site: **[https://anshu292.github.io](https://anshu292.github.io)**
 
