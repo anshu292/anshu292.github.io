@@ -29,3 +29,8 @@ dist-ssr
 
 .agents/
 skills-lock.json
+.vercel
+.publish-main/
+
+.vercel
+.env*

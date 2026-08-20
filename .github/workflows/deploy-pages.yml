@@ -33,8 +33,12 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Add .nojekyll
-        run: touch dist/.nojekyll
+      - name: Bundle README screenshots for main
+        run: |
+          cp README.md dist/README.md
+          mkdir -p dist/docs
+          cp -R docs/screenshots dist/docs/
+          touch dist/.nojekyll
 
       - name: Deploy built site to main
         uses: peaceiris/actions-gh-pages@v4
